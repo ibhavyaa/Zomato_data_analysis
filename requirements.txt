@@ -1,0 +1,7 @@
+# 📊 Jupyter Notebook - Data Analysis & Cleaning
+- pandas
+- numpy
+
+# 📈 Tableau - Visualization Dashboard
+- Tableau does not require Python packages in this file.
+- Use Tableau Desktop or Tableau Public separately.
