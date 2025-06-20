@@ -21,12 +21,22 @@ The Tableau dashboard includes:
 - **Total Votes**: 14,544,458
 - **Total Table Booking Restaurants**: 6,422
 
-### Key Visuals:
-- **Restaurant Category Breakdown**: Count of customers by restaurant type (e.g., Delivery, Dine-out).
-- **Variation in Prices**: Max & Min cost per person by restaurant type.
-- **Number of Online Orders**: Pie chart showing online ordering distribution.
-- **Best Rated Restaurants**: Top restaurants based on user ratings.
-- **Most Rated Restaurants**: Restaurants with the highest number of votes.
+### 🔍 Visual Components
+
+- **Restaurant Category Breakdown**  
+  Horizontal bar chart showing customer distribution across categories like Delivery, Dine-out, Cafes, Desserts, etc.
+
+- **Variation in Prices**  
+  Dual bar chart comparing Max and Min cost per person across restaurant types.
+
+- **No. of Online Orders**  
+  Pie chart illustrating how many restaurants accept online orders.
+
+- **Top Rated vs Most Rated Restaurants**  
+  Scatter plot comparing restaurants by average rating and number of votes, color-coded by rating quality (Excellent/Good). Highlights popular names like Truffles, Byg Brewski, The Black Pearl, etc.
+
+- **KPI Summary Panel**  
+  Metrics displayed at the top with filters for **Cuisine** and **Location**.
 
 ## 📌 Objectives
 
@@ -37,19 +47,18 @@ The Tableau dashboard includes:
 
 ## 🧪 Technologies Used
 
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)**
+- **Python (Pandas, NumPy)**
 - **Jupyter Notebook**
 - **Tableau**
 - **CSV (for data input)**
 
-## 🔍 Key Insights from EDA
+## 📌 Key Insights
 
-- **Delivery** services dominate with over 25K customer entries.
-- **Dine-out** is the second most popular, followed by **Desserts** and **Cafes**.
-- **Buffets** and **Drinks & Nightlife** are costlier per person on average.
-- A high number of customers prefer restaurants that accept **online orders**.
-- **Asia Kitchen By Mainland China** and **Byg Brewski Brewing Company** are among the highest-rated.
-- **Onesta**, **Truffles**, and **Empire Restaurant** are the most voted restaurants.
+- **Delivery** services are most preferred, with over 25,000 customer records.
+- **Dine-out**, **Desserts**, and **Cafes** are also widely chosen options.
+- **Buffet** and **Drinks & Nightlife** tend to have the highest maximum cost per person.
+- Most customers prefer restaurants that offer **online ordering**.
+- Restaurants like **Truffles**, **The Black Pearl**, and **Byg Brewski Brewing Company** rank high in both ratings and total votes.
 
 ## 📂 How to Use
 
